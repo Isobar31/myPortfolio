@@ -1,0 +1,469 @@
+@media screen and (min-width: 400px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+    
+    #background{
+        width: 100%;
+    }
+    
+    #background .mobile{
+        width: 100%;
+        display: block;
+        height: 600px;
+        background-color: black;
+    }
+    
+    #background .desktop{
+        display: none;
+    }
+    
+    /* ********************************* The Heading  */
+    
+    #background .mobile .headline{
+        width: 90%;
+        padding: 20px 0px;
+        margin: 0px 5%;
+        text-align: center;
+        height: 60px;
+        border-bottom: 1px dotted #808080;
+    }
+    
+    #background .mobile .headline a{
+        width: 10%;
+        float: left;
+        color: rgb(244, 127, 255);
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    #background .mobile .headline a:hover{
+        text-decoration: underline;
+    }
+    
+    #background .mobile .headline h1{
+        width: 90%;
+        float: left;
+        color: aquamarine;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    #background .mobile .nav{
+        width: 30%;
+        margin: 20px 70% 70px 0px;
+        padding: 0px 0px 0px 20px;
+        clear: both;
+    }
+    
+    #background .mobile .nav #home{
+        width: 38%;
+        float: left;
+    }
+    
+    #background .mobile .nav #home a{
+        color: #ddd;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    
+    #background .mobile .nav #home a:hover{
+        text-decoration: underline;
+        color: aquamarine;
+    }
+    
+    #background .mobile .nav #stroke{
+        width: 6%;
+        float: left;
+        color: #ddd;
+        font-size: 20px;
+        transform: translateY(2px);
+    }
+    
+    #background .mobile .nav #contact{
+        width: 25%;
+        float: left;
+        color: #808080;
+        font-size: 20px;
+    }
+    
+    /* ********************************* The Contact section  */
+    
+    #background .mobile .contactBoard{
+        width: 100%;
+        height: 400px;
+        clear: both;
+        background-color: black;
+    }
+    
+    #background .mobile .contactBoard .Row1{
+        width: 94%;
+        height: 400px;
+        margin: 0px 3% 0px 3%;
+    }
+    
+    /* *************************************************************** The column 1 ********** */
+    
+    #background .mobile .contactBoard .Row1 .column1{
+        width: 20%;
+        float: left;
+    }
+    
+    #background .mobile .contactBoard .Row1 .column1 .subColumn1{
+       width: 30%;
+       float: left;
+    }
+    
+    #background .mobile .contactBoard .Row1 .column1 .subColumn1 .imageRow1{
+        width: 100%;
+        height: 50px;
+        padding-top: 10px;
+    }
+    
+    #background .mobile .contactBoard .Row1 .column1 .subColumn1 .imageRow1 #starImage{
+        width: 15px;
+        height: 15px;
+    }
+    
+    #background .mobile .contactBoard .Row1 .column1 .subColumn1 .imageRow2{
+        width: 100%;
+        height: 50px;
+        margin-bottom: 50px;
+        padding-top: 10px;
+    }
+    
+    #background .mobile .contactBoard .Row1 .column1 .subColumn1 .imageRow2 #starImage{
+        width: 15px;
+        height: 15px;
+    }
+
+    #background .mobile .contactBoard .Row1 .column1 .subColumn1 .imageRow3{
+        width: 100%;
+        height: 50px;
+        padding-top: 10px;
+    }
+    
+    #background .mobile .contactBoard .Row1 .column1 .subColumn1 .imageRow3 #starImage{
+        width: 15px;
+        height: 15px;
+    }
+    
+    /* *************************************************************** The column 2 ********** */
+    
+    #background .mobile .contactBoard .Row1 .column1 .subColumn2{
+        width: 70%;
+        float: left;
+     }
+    
+     #background .mobile .contactBoard .Row1 .column1 .subColumn2 ul{
+        width: 100%;
+        height: 50px;
+        color: #ddd;
+        font-size: 16px;
+        text-align: left;
+        padding-top: 10px;
+     }
+    
+     #background .mobile .contactBoard .Row1 .column2{
+        width: 80%;
+        float: left;
+    }
+    
+    #background .mobile .contactBoard .Row1 .column2 .theInputBoard{
+        width: 90%;
+        margin: 0px 5%;
+    }
+    
+    #background .mobile .contactBoard .Row1 .column2 .theInputBoard input{
+        width: 100%;
+        height: 30px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    
+    #background .mobile .contactBoard .Row1 .column2 .theInputBoard textarea{
+        border-radius: 10px;
+        font-size: 16px;
+        width: 100%;
+    }
+    
+    #background .mobile .contactBoard .Row1 .column2 .theInputBoard button{
+        border-radius: 10px;
+        font-size: 16px;
+        width: 90px;
+        height: 30px;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    /* *************************************The footer********************* */
+
+footer .desktop{
+    display: none;
+}
+
+footer .mobile{
+    display: block;
+}
+
+footer .mobile .Row1{
+    width: 100%;
+    height: 160px;
+    background-color: black;
+}
+
+footer .mobile .Row1 .subColumn1{
+    width: 50%;
+    float: left;
+}
+
+footer .mobile .Row1 .subColumn1 h2{
+    width: 60%;
+    height: 20px;
+    margin: 0px 20% 10px 20%;
+    font-size: 12px;
+}
+
+footer .mobile .Row1 .subColumn1 h2 #about{
+    width: 50%;
+    float: left;
+    height: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer .mobile .Row1 .subColumn1 h2 #DIV{
+    width: 50%;
+    float: left;
+    height: 20px;
+    color: aquamarine;
+    margin-left: -10px;
+}
+
+footer .mobile .Row1 .subColumn1 .theAbout{
+    width: 90%;
+    margin: 0px 5%;
+}
+
+footer .mobile .Row1 .subColumn1 .theAbout p{
+    color: #808080;
+   font-size: 14px;
+}
+
+footer .mobile .Row1 .subColumn1 .theAbout ul{
+   width: 80%;
+   height: 30px;
+   margin: 10px 17% 0px 3%;
+   padding-top: 5px;
+   background-color: white;
+   border-radius: 3px;
+   text-align: center;
+}
+
+footer .mobile .Row1 .subColumn1 .theAbout ul a{
+   color: black;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 800;
+}
+
+footer .mobile .Row1 .subColumn2{
+    width: 50%;
+    float: left;
+}
+
+footer .mobile .Row1 .subColumn2 h2{
+    width: 60%;
+    height: 20px;
+    margin: 0px 20% 10px 20%;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer .mobile .Row1 .subColumn2 .contact{
+    width: 95%;
+    margin: 0px 0px 10px 5%;
+    color: #808080;
+    font-size: 14px;
+}
+
+footer .mobile .Row1 .subColumn2 .contact ul{
+    margin-bottom: 7px;
+}
+
+footer .mobile .Row1 .subColumn2 .socialMedia{
+    width: 80%;
+    margin: 0px 10%;
+}
+
+footer .mobile .Row1 .subColumn2 .socialMedia ul{
+    width: 16%;
+    margin: 0px 2%;
+    float: left;
+    height: 20px;
+}
+
+footer .mobile .Row1 .subColumn2 .socialMedia ul #socialImage{
+    width: 20px;
+    height: 20px;
+}
+
+footer .mobile .Row2{
+    width: 100%;
+    height: 200px;
+    padding-top: 40px;
+    background-color: black;
+}
+
+footer .mobile .Row2 .subColumn1{
+    width: 50%;
+    float: left;
+}
+
+footer .mobile .Row2 .subColumn1 h2{
+    width: 100%;
+    height: 20px;
+    margin: 0px 0% 10px 0%;
+    color: white;
+    font-size: 12px;
+    padding-left: 40px;
+}
+
+footer .mobile .Row2 .subColumn1 .category{
+    width: 100%;
+}
+
+footer .mobile .Row2 .subColumn1 .category ul{
+    padding: 0px 0px 5px 40px;
+}
+
+footer .mobile .Row2 .subColumn1 .category ul a{
+    color: #808080;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer .mobile .Row2 .subColumn1 .category ul a:hover{
+    text-decoration: underline;
+}
+
+footer .mobile .Row2 .subColumn2{
+    width: 50%;
+    float: left;
+}
+
+footer .mobile .Row2 .subColumn2 h2{
+    width: 60%;
+    height: 20px;
+    margin: 0px 20% 10px 20%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer .mobile .Row2 .subColumn2 .tool{
+    width: 95%;
+    margin: 0px 0px 10px 0%;
+    color: #808080;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer .mobile .Row2 .subColumn2 .tool ul{
+    margin-bottom: 3px;
+}
+
+footer .mobile .Row3{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    font-size: 11px;
+}
+
+footer .mobile .Row3 .column1{
+    width: 50%;
+    float: left;
+    padding-top: 5px;
+}
+
+footer .mobile .Row3 .column1 #copyright{
+    width: 27%;
+    float: left;
+    color: #808080;
+    padding-left: 8%;
+}
+
+footer .mobile .Row3 .column1 #div{
+    width: 13%;
+    float: left;
+}
+
+footer .mobile .Row3 .column1 #div a{
+   color: aquamarine;
+   text-decoration: none;
+   font-size: 12px;
+}
+
+footer .mobile .Row3 .column1 #div a:hover{
+   text-decoration: underline;
+}
+
+footer .mobile .Row3 .column1 #reserve{
+    width: 54%;
+    float: left;
+    color: #808080;
+    padding-left: 4px;
+    margin-right: 6%;
+}
+
+footer .mobile .Row3 .column2{
+    width: 50%;
+    float: left;
+}
+
+footer .mobile .Row3 .column2 #designed{
+    width: 37%;
+    float: left;
+    color: #808080;
+    padding: 5px 0px 0px 8%;
+}
+
+footer .mobile .Row3 .column2 #author{
+    width: 6%;
+    float: left;
+    padding-top: 5px;
+}
+
+footer .mobile .Row3 .column2 #author a{
+   color: aquamarine;
+   text-decoration: none;
+   font-size: 12px;
+}
+
+footer .mobile .Row3 .column2 #author a:hover{
+   text-decoration: underline;
+}
+
+footer .mobile .Row3 .column2 #filterBoard{
+    width: 24%;
+    float: left;
+    color: #808080;
+    margin: 0px 10%;
+    background-color: rgb(29, 29, 29);
+}
+
+footer .mobile .Row3 .column2 #filterBoard #filter{
+    width: 20%;
+      margin: 0% 40%;
+      height: 20px;
+      transform: rotate(-90deg);
+}
+   
+}

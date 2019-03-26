@@ -1,0 +1,208 @@
+/* ************************** Beginning of the footer ************************************************/
+
+footer{
+	clear: both;
+	position: relative;
+	width: 100%;
+	list-style-type: none;
+}
+
+/* ************************************************************** footer row 1 ************************************************/
+
+footer .row1{
+	height: 380px;
+	background: #eeeeee;
+	width: 100%;
+}
+
+footer .row1 .columnBrand{
+	width: 20%;
+	float: left;
+	color: black;
+	padding: 10px 0px 0px 10px;
+	text-align: left;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+footer .row1 .columnBrand .brandRow{
+	width: 100%;
+	height: 150px;
+}
+
+footer .row1 .columnBrand .brandRow #brand-logo{
+	width: 100%;
+	height: 40px;
+	padding-left: 50px;
+}
+
+footer .row1 .columnBrand .brandRow #brand-logo #logo{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;	
+}
+
+footer .row1 .columnBrand .brandRow #brand-name{
+	font-size: 40px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	margin: 0px 0px 0px 20px;
+}
+
+footer .row1 .columnBrand .privacyAndServicesRow{
+	width: 100%;
+	height: 40px;
+}
+
+footer .row1 .columnBrand .privacyAndServicesRow .privacyAndServicesLinks{
+	width: 100%;
+	height: 20px;
+}
+
+footer .row1 .columnBrand .privacyAndServicesRow .privacyAndServicesLinks #privacy{
+	width: 32%;
+	float: left;
+	margin-left: 5%;
+}
+
+footer .row1 .columnBrand .privacyAndServicesRow .privacyAndServicesLinks #privacy #text{
+	color: rgb(102, 101, 101);
+	font-size: 11px;
+	font-weight: 700;
+}
+
+footer .row1 .columnBrand .privacyAndServicesRow .privacyAndServicesLinks #privacy #text:hover{
+	text-decoration: underline;
+}
+
+footer .row1 .columnBrand .privacyAndServicesRow .privacyAndServicesLinks #services{
+	width: 40%;
+	float: left;
+	margin-right: 23%;
+}
+
+footer .row1 .columnBrand .privacyAndServicesRow .privacyAndServicesLinks #services #text{
+	color: rgb(102, 101, 101);
+	font-size: 11px;
+	font-weight: 700;
+}
+
+footer .row1 .columnBrand .privacyAndServicesRow .privacyAndServicesLinks #services #text:hover{
+	text-decoration: underline;
+}
+
+footer .row1 .columnBrand .privacyAndServicesRow .currentDateAndCopyright{
+	height: 30px;
+	width: 100%;
+	padding: 0px 0px 0px 15px;
+}
+
+footer .row1 .columnBrand .privacyAndServicesRow .currentDateAndCopyright #atDP{
+	width: 52%;
+	float: left;
+	font-size: 11px;
+	font-weight: 700;
+	color: #949292;
+}
+
+footer .row1 .columnBrand .privacyAndServicesRow .currentDateAndCopyright #currentDate{
+	width: 48%;
+	float: left;
+	font-size: 11px;
+	font-weight: 700;
+	color: #949292;
+}
+
+footer .row1 .columnBrand .emailRow{
+	width: 100%;
+	height: 20px;	
+	margin-top: 150px;
+}
+
+footer .row1 .columnBrand .emailRow #email{
+	font-size: 14px;
+	color: rgb(102, 101, 101);
+}
+
+footer .row1 .column{
+	width: 17%;
+	float: left;
+	color: black;
+	padding-top: 10px;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+h3{
+	padding-bottom: 20px;
+	color: black;
+	font-size: 20px;
+}
+
+footer .row1 .column li{
+	margin-bottom: 10px;
+}
+
+footer .row1 .column li a{
+	color: black;
+}
+
+footer .row1 .column li a:hover{
+	text-decoration: underline;
+}
+
+footer .row1 .columnLocation{
+	width: 29%;
+	float: left;
+	color: black;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+footer .row1 .columnLocation li{
+	width: 100%;
+}
+
+footer .row1 .columnLocation li a #location{
+	width: 100%;
+	height: 350px;
+	margin: 0px 0%;
+}
+
+footer .row1 .columnLocation iframe #location{
+	width: 100%;
+	height: 550px;
+	margin: 0px 0%;
+}
+
+/* ************************************************************** footer row 3 ************************************************/
+
+footer .row2{
+	height: 70px;
+	background: #eeeeee;
+	border-top: #b1afb1 1px solid;
+	padding-top: 5px;
+}
+footer .row2 #address-text{
+	color: #3b3b3b;
+	text-align: center;
+	font-size: 16px;
+}
+
+footer .row2 #bottom-text{
+	color: #3b3b3b;
+	text-align: center;
+	font-size: 16px;
+}
+
+footer .row2 #address-text #map{
+	color: black;
+	font-weight: 900;
+}
+
+footer .row2 #address-text #map:hover{
+	text-decoration: underline;
+}

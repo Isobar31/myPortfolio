@@ -1,0 +1,690 @@
+@media screen and (min-width: 1200px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+
+#background{
+    width: 100%;
+    height: 1200px;
+    background-color: black;
+}
+
+#background .desktop{
+    width: 100%;
+    height: 1200px;
+}
+
+#background .mobile{
+    display: none;
+}
+
+#background .desktop .nav{
+    background-color: gold;
+    width: 100%;
+    height: 40px;
+}
+
+#background .desktop .nav .DIVLogo{
+    width: 50%;
+    float: left;
+    padding: 7px 0px 0px 20%;
+}
+
+#background .desktop .nav .DIVLogo #text{
+    color: black;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+#background .desktop .nav .navBoard{
+    width: 30%;
+    float: left;
+    margin-right: 20%;
+}
+
+#background .desktop .nav .navBoard ul{
+    width: 25%;
+    float: left;
+    padding-top: 7px;
+}
+
+#background .desktop .nav .navBoard ul a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+#background .desktop .nav .navBoard ul a:hover{
+    text-decoration: underline;
+    color: rgb(7, 158, 108);
+}
+
+#background .desktop .nav .navBoard ul #resume{
+    color: white;
+}
+
+/* ************************************************The resume board starts here *********************/
+
+#background .desktop .resumeBoard{
+    background-color: #080808;
+    width: 60%;
+    margin: 0px 20%;
+    height: 1100px;
+}
+
+/* ************************************************ Resume board Row 1 *********************/
+
+#background .desktop .resumeBoard .Row1{
+    background-color: #121212;
+    width: 100%;
+    margin: 20px 0%;
+    height: 470px;
+    padding: 20px;
+}
+
+#background .desktop .resumeBoard .Row1 .column1{
+    width: 40%;
+    float: left;
+}
+
+#background .desktop .resumeBoard .Row1 .column1 #imageBoard{
+    width: 100%;
+    height: 320px;
+    margin: 0px 0% 10px 0%;
+    padding-left: 20px;
+}
+
+#background .desktop .resumeBoard .Row1 .column1 #imageBoard #DIVImage{
+    width: 80%;
+    margin: 0px 10%;
+    height: 270px;
+}
+
+#background .desktop .resumeBoard .Row1 .column1 #imageText{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: gold;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 2px;
+}
+
+#background .desktop .resumeBoard .Row1 .column2{
+    width: 60%;
+    float: left;
+}
+
+#background .desktop .resumeBoard .Row1 .column2 #introduction{
+    color: #a8a8a8;
+    font-size: 20px;
+    width: 100%;
+    height: 20px;
+}
+
+#background .desktop .resumeBoard .Row1 .column2 #introduction #hi{
+    width: 20%;
+    float: left;
+}
+
+#background .desktop .resumeBoard .Row1 .column2 #introduction #fullname{
+    width: 80%;
+    float: left;
+    color: gold;
+}
+
+#background .desktop .resumeBoard .Row1 .column2 #introduction .akaBoard{
+    width: 30%;
+    float: left;
+    display: none;
+}
+
+#background .desktop .resumeBoard .Row1 .column2 #introduction .akaBoard #bracketOpen{
+    width: 7%;
+    float: left;
+}
+
+#background .desktop .resumeBoard .Row1 .column2 #introduction .akaBoard #aka{
+    width: 25%;
+    float: left;
+}
+
+#background .desktop .resumeBoard .Row1 .column2 #introduction .akaBoard #div{
+    width: 30%;
+    float: left;
+    color: gold;
+}
+
+#background .desktop .resumeBoard .Row1 .column2 #introduction .akaBoard #bracketClose{
+    width: 8%;
+    float: left;
+    margin-right: 30%;
+}
+
+#background .desktop .resumeBoard .Row1 .column2 #profession{
+    color: #3bf8ef;
+    font-size: 18px;
+    width: 100%;
+    height: 20px;
+    padding-left: 30px;
+    margin-top: 10px;
+    clear: both;
+}
+
+#background .desktop .resumeBoard .Row1 .column2 #aboutMyself{
+    color: #c6c6c6;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px;
+    height: 140px;
+}
+
+/* ****************************************************************** The contact board******************************** */
+
+#background .desktop .resumeBoard .Row1 .column2 .contacts{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+
+#background .desktop .resumeBoard .Row1 .column2 .contacts .colum1{
+    width: 30%;
+    float: left;
+    color: #c6c6c6;
+}
+ 
+#background .desktop .resumeBoard .Row1 .column2 .contacts .colum1 ul{
+    height: 25px;
+}
+
+#background .desktop .resumeBoard .Row1 .column2 .contacts .colum2{
+    width: 70%;
+    float: left;
+    color: #c6c6c6;
+}
+ 
+#background .desktop .resumeBoard .Row1 .column2 .contacts .colum2 ul{
+    height: 25px;
+}
+
+#background .desktop .resumeBoard .Row1 .column2 .socialMedia{
+    width: 70%;
+    margin: 20px 25% 0px 5%;
+ }
+ 
+ #background .desktop .resumeBoard .Row1 .column2 .socialMedia a{
+    width: 100%;
+ }
+ 
+ #background .desktop .resumeBoard .Row1 .column2 .socialMedia a ul{
+    height: 25px;
+    width: 12%;
+    float: left;
+    margin: 0px 4%;
+    text-align: center;
+ }
+
+ #background .desktop .resumeBoard .Row1 .column2 .socialMedia a ul #socialImage{
+    width: 20px;
+    height: 20px;
+ }
+
+/* ************************************************ Resume board Row 2 *********************/
+
+#background .desktop .resumeBoard .Row2{
+    width: 100%;
+    margin: 80px 0% 20px 0%;
+    height: 500px;
+}
+
+#background .desktop .resumeBoard .Row2 .skills{
+    width: 100%;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .heading{
+    width: 20%;
+    margin: 0px 40% 10px 40%;
+    background-color: #121212;
+    border-radius: 20px;
+    height: 40px;
+    padding-top: 8px;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .heading #skillheading{
+    text-align: center;
+    color: #c6c6c6;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types{
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column1{
+    width: 45%;
+    float: left;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column1 #webHeading{
+    color: 100%;
+    text-align: center;
+    color: #c6c6c6;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column1 .listOfWebSkills{
+    width: 100%;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column1 .listOfWebSkills #lang{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px 10% 0px 5%;
+    transform: translateY(10px);
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column1 .listOfWebSkills .phpBoard{
+    width: 85%;
+    margin: 0px 10% 0px 5%;
+    background-color: #767676;
+    height: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column1 .listOfWebSkills .phpBoard #css{
+    width: 90%;
+    float: left;
+    height: 15px;
+    background-color: gold;
+    margin-right: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: blue;
+    padding-left: 80%;
+    font-weight: 700;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column1 .listOfWebSkills .phpBoard #jquery{
+    width: 80%;
+    float: left;
+    height: 15px;
+    background-color: gold;
+    margin-right: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: blue;
+    padding-left: 70%;
+    font-weight: 700;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column1 .listOfWebSkills .phpBoard #mysql{
+    width: 80%;
+    float: left;
+    height: 15px;
+    background-color: gold;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: blue;
+    padding-left: 70%;
+    font-weight: 700;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column1 .listOfWebSkills .phpBoard #js{
+    width: 70%;
+    float: left;
+    height: 15px;
+    background-color: gold;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: blue;
+    padding-left: 60%;
+    font-weight: 700;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column1 .listOfWebSkills .phpBoard #php{
+    width: 60%;
+    float: left;
+    height: 15px;
+    background-color: gold;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: blue;
+    padding-left: 50%;
+    font-weight: 700;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column2{
+    width: 55%;
+    float: left;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column2 #pptHeading{
+    color: 100%;
+    text-align: center;
+    color: #c6c6c6;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column2 .listOfPPTSkills{
+    width: 100%;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column2 .listOfPPTSkills #lang{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px 10% 0px 5%;
+    transform: translateY(10px);
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column2 .listOfPPTSkills .phpBoard{
+    width: 85%;
+    margin: 0px 10% 0px 5%;
+    background-color: #767676;
+    height: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column2 .listOfPPTSkills .phpBoard #ppt{
+    width: 90%;
+    float: left;
+    height: 15px;
+    background-color: gold;
+    margin-right: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: blue;
+    padding-left: 80%;
+    font-weight: 700;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column2 .listOfPPTSkills .phpBoard #psd{
+    width: 40%;
+    float: left;
+    height: 15px;
+    background-color: gold;
+    margin-right: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: blue;
+    padding-left: 30%;
+    font-weight: 700;
+}
+
+#background .desktop .resumeBoard .Row2 .skills .types .column2 .listOfPPTSkills .phpBoard #ae{
+    width: 30%;
+    float: left;
+    height: 15px;
+    background-color: gold;
+    margin-right: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: blue;
+    padding-left: 20%;
+    font-weight: 700;
+}
+
+ footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    clear: both;
+ }
+ 
+ footer .desktop .Row1{
+    width: 100%;
+    height: 330px;
+    padding: 20px 20px 0px 20px; 
+    background-color: #080808;
+ }
+ 
+ footer .desktop .Row1 .subColumn1{
+    width: 25%;
+    float: left;      
+ }
+ 
+ footer .desktop .Row1 .subColumn1 h2{
+   height: 50px;
+   width: 100%;
+   font-size: 18px;
+   font-weight: 800;
+ }
+ 
+ footer .desktop .Row1 .subColumn1 h2 #about{
+   width: 50%;
+   float: left;
+   color: #dadada;
+   text-align: right;
+   padding-right: 10px;
+ }
+ 
+ footer .desktop .Row1 .subColumn1 h2 #DIV{
+   width: 50%;
+   float: left;
+   color: rgb(146, 145, 145);
+ }
+ 
+ footer .desktop .Row1 .subColumn1 .theAbout{
+   padding: 10px;
+ }
+
+ footer .desktop .Row1 .subColumn1 .theAbout p{
+   color: #808080;
+   font-size: 20px;
+   padding-bottom: 20px;
+ }
+
+ footer .desktop .Row1 .subColumn1 .theAbout ul{
+    width: 100%;
+    height: 40px;
+   background-color: #c6c6c6;
+   text-align: center;
+   padding-top: 10px;
+   border-radius: 3px;
+   cursor: pointer;
+ }
+
+ footer .desktop .Row1 .subColumn1 .theAbout ul a{
+   color: black;
+   font-size: 16px;
+   text-decoration: none;
+   text-transform: uppercase;
+ }
+
+ footer .desktop .Row1 .subColumn2{
+    width: 25%;
+    float: left;      
+ }
+ 
+ footer .desktop .Row1 .subColumn2 h2{
+   height: 50px;
+   width: 100%;
+   font-size: 18px;
+   font-weight: 800;
+   color: #dadada;
+   text-align: center;
+ }
+
+ footer .desktop .Row1 .subColumn2 .category{
+    width: 100%;
+    padding: 10px;  
+ }
+
+ footer .Row1 .subColumn2 .category ul{
+    text-align: center;
+    margin-bottom: 5px;
+ }
+ 
+ footer .desktop .Row1 .subColumn2 .category ul a{
+    text-decoration: none;
+    color: #808080;
+ }
+
+ footer .desktop .Row1 .subColumn2 .category ul a:hover{
+    text-decoration: underline;
+ }
+
+ footer .desktop .Row1 .subColumn3{
+    width: 25%;
+    float: left;      
+ }
+
+ footer .desktop .Row1 .subColumn3 h2{
+   height: 50px;
+   width: 100%;
+   font-size: 18px;
+   font-weight: 800;
+   color: #dadada;
+   text-align: left;
+ }
+ 
+ footer .desktop .Row1 .subColumn3 .tool{
+    padding: 10px;     
+ }
+
+ footer .desktop .Row1 .subColumn3 .tool ul{
+    color: #808080;
+    text-align: left;
+ }
+
+ footer .desktop .Row1 .subColumn4{
+    width: 25%;
+    float: left;      
+ }
+ 
+ footer .desktop .Row1 .subColumn4 h2{
+   height: 50px;
+   width: 100%;
+   font-size: 18px;
+   font-weight: 800;
+   color: #dadada;
+   text-align: left;
+ }
+
+ footer .desktop .Row1 .subColumn4 .contact{
+    padding: 10px;      
+ }
+ 
+ footer .desktop .Row1 .subColumn4 .contact ul{
+    text-decoration: none;
+    color: #808080;
+    padding-bottom: 10px;
+ }
+
+ footer .desktop .Row1 .subColumn4 .socialMedia{
+    width: 100%;
+ }
+ 
+ footer .desktop .Row1 .subColumn4 .socialMedia a{
+    width: 20%;
+    float: left;
+ }
+ 
+ footer .desktop .Row1 .subColumn4 .socialMedia a ul{
+    height: 50px;
+ }
+
+ footer .desktop .Row1 .subColumn4 .socialMedia a ul #socialImage{
+    width: 50%;
+    margin: 5px 25%;
+    height: 32px;
+ }
+
+ footer .desktop .Row2{
+    width: 100%;
+    height: 60px;
+    padding: 15px 0px 0px 0px;
+ }
+ 
+ footer .desktop .Row2 .column1{
+    width: 50%;
+   float: left;
+ }
+ 
+ footer .desktop .Row2 .column1 #copyright{
+    width: 8%;
+   float: left;
+   margin-left: 10%;
+   color: #808080;
+ }
+ 
+ footer .desktop .Row2 .column1 #div{
+    width: 6%;
+   float: left;
+ }
+ 
+ footer .desktop .Row2 .column1 #div a{
+   color: #3de9e0;
+   text-decoration: none;
+ }
+ 
+ footer .desktop .Row2 .column1 #reserve{
+    width: 32%;
+   float: left;
+   margin-right: 44%;
+   color: #808080;
+ }
+ 
+ footer .desktop .Row2 .column2{
+    width: 50%;
+   float: left;
+ }
+ 
+ footer .desktop .Row2 .column2 #designed{
+    width: 13%;
+   float: left;
+   margin-left: 56%;
+   color: #808080;
+ }
+
+ footer .desktop .Row2 .column2 #author{
+    width: 13%;
+   float: left;
+ }
+
+ footer .desktop .Row2 .column2 #author a{
+   color: #3de9e0;
+   text-decoration: none;
+ }
+
+ footer .desktop .Row2 .column2 #filterBoard{
+    width: 12%;
+    height: 40px;
+   float: left;
+   background-color: #080808;
+   padding-top: 10px;
+   margin-right: 6%;
+ }
+
+ footer .desktop .Row2 .column2 #filterBoard #filter{
+    width: 20%;
+    margin: 0% 40%;
+    height: 20px;
+    transform: rotate(-90deg);
+ }
+
+ footer .mobile{
+    display: none;
+ }
+
+}

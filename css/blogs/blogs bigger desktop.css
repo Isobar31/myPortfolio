@@ -1,0 +1,533 @@
+@media screen and (min-width: 1200px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+    /* **********************The background *********************/
+    #background{
+        width: 100%;
+        height: 150px;
+        background-color: black;
+    }
+
+    #background .mobile{
+        display: none;
+    }
+
+    #background .desktop{
+        display: block;
+        height: 80px;
+        border-bottom: 1px solid #121212;
+    }
+
+    #background .desktop .DIV{
+        width: 70%;
+        float: left;
+    }
+
+    #background .desktop .DIV #pptPage{
+        width: 20%;
+        float: left;
+        color: #808080;
+        margin: 20px 0% 0px 0%;
+        font-size: 25px;
+        font-weight: 900;
+        padding-left: 20px;
+    }
+
+    #background .desktop .DIV #textDIV{
+      width: 15%;
+      float: left;
+        color: gold;
+        font-size: 35px;
+        font-weight: 900;
+        margin: 20px 20% 0px 45%;
+    }
+
+    #background .desktop .DIV a{
+        text-decoration: none;
+    }
+    #background .desktop .DIV a:hover #textDIV{
+        text-decoration: underline;
+        color: rgb(119, 103, 11);
+    }
+
+    #background .desktop nav{
+        width: 30%;
+        float: left;
+    }
+    
+  #background .desktop nav #navbarSub{
+    width: 80%;
+    margin: 0px 20% 0px 0%;
+    padding-top: 15px;
+  }
+
+  #background .desktop nav #navbarSub div{
+    width: 25%;
+    float: left;
+    height: 50px;
+    text-align: center;    
+  }
+
+  #background .desktop nav #navbarSub div:hover{    
+    background-color: rgb(66, 65, 65);    
+  }
+
+  #background .desktop nav #navbarSub div:hover a{    
+    color: aqua;
+    text-decoration: underline;
+  }
+
+  #background .desktop nav #navbarSub div a{
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    color: rgb(124, 124, 231);
+    margin: 10px 0px;
+  }
+  
+  #background .desktop nav #navbarSub  #designs #theDesign{
+   color: aquamarine; 
+ }
+
+  #background .desktop nav #navbarSub #designs .dropDown{
+    display: none;
+  }
+
+  #background .desktop nav #navbarSub #designs:hover .dropDown{
+    width: 150%;
+    height: 100px;
+    background-color: rgb(34, 34, 34);
+    display: block;
+    margin-left: -20px;
+  }
+
+  #background .desktop nav #navbarSub #designs .dropDown a div{
+    width: 100%;
+    height: 30px;
+    padding-top: 6px;
+  }
+
+  #background .desktop nav #navbarSub #designs .dropDown a div ul{
+    font-size: 20px;
+    font-weight: bold;
+    color: aqua;
+  }
+
+  #background .desktop nav #navbarSub #designs .dropDown a .web:hover{
+    background-color: rgb(71, 71, 71);
+  }
+
+  #background .desktop nav #navbarSub #designs .dropDown a .blog:hover{
+    background-color: rgb(71, 71, 71);
+  }
+
+  #background .desktop nav #navbarSub #designs .dropDown a .ppt:hover{
+    background-color: rgb(71, 71, 71);
+  }
+
+  /* ********************************** The follow section *********************/
+
+.sectionFollow{
+    clear: both;
+    width: 100%;
+    height: 320px;
+    background-color: black;
+}
+
+.sectionFollow .column1{
+    width: 30%;
+    float: left;
+}
+
+.sectionFollow .column1 .socialMedia{
+    width: 70%;
+    margin: 50px 25% 0px 5%;
+ }
+ 
+ .sectionFollow .column1 .socialMedia a{
+    width: 100%;
+ }
+ 
+ .sectionFollow .column1 .socialMedia a ul{
+    height: 35px;
+    width: 14%;
+    float: left;
+    padding-top: 5px;
+    margin: 0px 2%;
+    text-align: center;
+    border: 1px solid #4e4e4e;
+    border-radius: 15px;
+    transition: 0.75s;
+ }
+
+ .sectionFollow .column1 .socialMedia a ul:hover{
+    background-color:#4e4e4e;
+    transition: 0.75s;
+ }
+
+ .sectionFollow .column1 .socialMedia a ul #socialImage{
+    width: 20px;
+    height: 20px;
+ }
+ 
+ .sectionFollow .column1 .socialMedia a #follow{
+    height: 35px;
+    width: 20%;
+    float: left;
+    margin: 0px 4%;
+    padding-top: 7px;
+    text-align: center;
+    color: black;
+    background-color: #4e4e4e;
+    border-radius: 10px;
+ }
+ .sectionFollow .column1 .socialMedia a #follow:hover{
+    background-color:#e4e4e4;
+ }
+ 
+ 
+.sectionFollow .column2{
+    width: 50%;
+    float: left;
+}
+
+
+.sectionFollow .column2 .pictureBoard{
+    width: 20%;
+    margin: 0px 55% 0px 25%;
+    height: 130px;
+    padding-top: 25px;
+    background-color: #080808;
+    border: 1px solid black;
+    border-radius: 50%;
+    transition: 0.75s;
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+
+.sectionFollow .column2 .pictureBoard:hover{
+    border: 1px solid #4e4e4e;
+    background-color: #121212;
+    transition: 0.75s;
+}
+
+.sectionFollow .column2 .pictureBoard #DIVImage{
+    width: 60%;
+    margin: 0px 20%;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.sectionFollow .column2 .statementBoard{
+    width: 50%;
+    margin: 10px 40% 0px 10%;
+    transform: translateY(-20px);
+}
+
+.sectionFollow .column2 .statementBoard #textStatement{
+    color: #999898;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.sectionFollow .column3{
+    width: 20%;
+    float: left;
+}
+
+.sectionFollow .column3 .myContacts{
+    width: 80%;
+    margin: 50px 20% 0px 0%;
+}
+
+.sectionFollow .column3 .myContacts .contactList{
+    height: 40px;
+    width: 100%;
+}
+
+.sectionFollow .column3 .myContacts .contactList ul{
+    width: 15%;
+    float: left;
+    padding-left: 10px;
+}
+
+.sectionFollow .column3 .myContacts .contactList ul #phoneImage{
+    width: 20px;
+    height: 20px;    
+}
+
+.sectionFollow .column3 .myContacts .contactList ul #emailImage{
+    width: 20px;
+    height: 20px;    
+}
+
+.sectionFollow .column3 .myContacts .contactList ul #homeImage{
+    width: 20px;
+    height: 20px;    
+}
+
+.sectionFollow .column3 .myContacts .contactList p{
+    width: 85%;
+    float: left;
+    color: #999898;
+    font-size: 16px;
+    text-align: center;
+}
+
+.theDesigns{
+    clear: both;
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+
+/* **********************************************THE FOOTER******************************************* */
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    clear: both;
+ }
+ 
+ footer .desktop .Row1{
+    width: 100%;
+    height: 330px;
+    padding: 20px 20px 0px 20px; 
+    background-color: #080808;
+ }
+ 
+ footer .desktop .Row1 .subColumn1{
+    width: 25%;
+    float: left;      
+ }
+ 
+ footer .desktop .Row1 .subColumn1 h2{
+   height: 50px;
+   width: 100%;
+   font-size: 18px;
+   font-weight: 800;
+ }
+ 
+ footer .desktop .Row1 .subColumn1 h2 #about{
+   width: 50%;
+   float: left;
+   color: #dadada;
+   text-align: right;
+   padding-right: 10px;
+ }
+ 
+ footer .desktop .Row1 .subColumn1 h2 #DIV{
+   width: 50%;
+   float: left;
+   color: rgb(146, 145, 145);
+ }
+ 
+ footer .desktop .Row1 .subColumn1 .theAbout{
+   padding: 10px;
+ }
+
+ footer .desktop .Row1 .subColumn1 .theAbout p{
+   color: #808080;
+   font-size: 20px;
+   padding-bottom: 20px;
+ }
+
+ footer .desktop .Row1 .subColumn1 .theAbout ul{
+    width: 100%;
+    height: 40px;
+   background-color: #c6c6c6;
+   text-align: center;
+   padding-top: 10px;
+   border-radius: 3px;
+   cursor: pointer;
+ }
+
+ footer .desktop .Row1 .subColumn1 .theAbout ul a{
+   color: black;
+   font-size: 16px;
+   text-decoration: none;
+   text-transform: uppercase;
+ }
+
+ footer .desktop .Row1 .subColumn2{
+    width: 25%;
+    float: left;      
+ }
+ 
+ footer .desktop .Row1 .subColumn2 h2{
+   height: 50px;
+   width: 100%;
+   font-size: 18px;
+   font-weight: 800;
+   color: #dadada;
+   text-align: center;
+ }
+
+ footer .desktop .Row1 .subColumn2 .category{
+    width: 100%;
+    padding: 10px;  
+ }
+
+ footer .Row1 .subColumn2 .category ul{
+    text-align: center;
+    margin-bottom: 5px;
+ }
+ 
+ footer .desktop .Row1 .subColumn2 .category ul a{
+    text-decoration: none;
+    color: #808080;
+ }
+
+ footer .desktop .Row1 .subColumn2 .category ul a:hover{
+    text-decoration: underline;
+ }
+
+ footer .desktop .Row1 .subColumn3{
+    width: 25%;
+    float: left;      
+ }
+
+ footer .desktop .Row1 .subColumn3 h2{
+   height: 50px;
+   width: 100%;
+   font-size: 18px;
+   font-weight: 800;
+   color: #dadada;
+   text-align: left;
+ }
+ 
+ footer .desktop .Row1 .subColumn3 .tool{
+    padding: 10px;     
+ }
+
+ footer .desktop .Row1 .subColumn3 .tool ul{
+    color: #808080;
+    text-align: left;
+ }
+
+ footer .desktop .Row1 .subColumn4{
+    width: 25%;
+    float: left;      
+ }
+ 
+ footer .desktop .Row1 .subColumn4 h2{
+   height: 50px;
+   width: 100%;
+   font-size: 18px;
+   font-weight: 800;
+   color: #dadada;
+   text-align: left;
+ }
+
+ footer .desktop .Row1 .subColumn4 .contact{
+    padding: 10px;      
+ }
+ 
+ footer .desktop .Row1 .subColumn4 .contact ul{
+    text-decoration: none;
+    color: #808080;
+    padding-bottom: 10px;
+ }
+
+ footer .desktop .Row1 .subColumn4 .socialMedia{
+    width: 100%;
+ }
+ 
+ footer .desktop .Row1 .subColumn4 .socialMedia a{
+    width: 20%;
+    float: left;
+ }
+ 
+ footer .desktop .Row1 .subColumn4 .socialMedia a ul{
+    height: 50px;
+ }
+
+ footer .desktop .Row1 .subColumn4 .socialMedia a ul #socialImage{
+    width: 50%;
+    margin: 5px 25%;
+    height: 32px;
+ }
+
+ footer .desktop .Row2{
+    width: 100%;
+    height: 60px;
+    padding: 15px 0px 0px 0px;
+ }
+ 
+ footer .desktop .Row2 .column1{
+    width: 50%;
+   float: left;
+ }
+ 
+ footer .desktop .Row2 .column1 #copyright{
+    width: 8%;
+   float: left;
+   margin-left: 10%;
+   color: #808080;
+ }
+ 
+ footer .desktop .Row2 .column1 #div{
+    width: 6%;
+   float: left;
+ }
+ 
+ footer .desktop .Row2 .column1 #div a{
+   color: #3de9e0;
+   text-decoration: none;
+ }
+ 
+ footer .desktop .Row2 .column1 #reserve{
+    width: 32%;
+   float: left;
+   margin-right: 44%;
+   color: #808080;
+ }
+ 
+ footer .desktop .Row2 .column2{
+    width: 50%;
+   float: left;
+ }
+ 
+ footer .desktop .Row2 .column2 #designed{
+    width: 13%;
+   float: left;
+   margin-left: 56%;
+   color: #808080;
+ }
+
+ footer .desktop .Row2 .column2 #author{
+    width: 13%;
+   float: left;
+ }
+
+ footer .desktop .Row2 .column2 #author a{
+   color: #3de9e0;
+   text-decoration: none;
+ }
+
+ footer .desktop .Row2 .column2 #filterBoard{
+    width: 12%;
+    height: 40px;
+   float: left;
+   background-color: #080808;
+   padding-top: 10px;
+   margin-right: 6%;
+ }
+
+ footer .desktop .Row2 .column2 #filterBoard #filter{
+    width: 20%;
+    margin: 0% 40%;
+    height: 20px;
+    transform: rotate(-90deg);
+ }
+
+ footer .mobile{
+    display: none;
+ }
+
+}

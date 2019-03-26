@@ -1,0 +1,811 @@
+@media screen and (min-width: 400px)
+{ 
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+#backgroundSection{
+    height: 230px;
+    background-image: url("../../../img/index/Portfolio\ background2.jpg");
+    background-size: cover;
+}
+
+#backgroundSection .navbar-mob{    
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+}
+  
+  #backgroundSection .navbar-mob .menuIcon{    
+    width: 50%;
+    padding: 0px 0px 0px 5px;   
+  }
+  
+  #backgroundSection .navbar-mob .menuIcon .fa-times, #backgroundSection .navbar-mob .menuIcon .fa-bars{
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+  }
+  
+  #backgroundSection .navbar-mob .navbarSubMob{
+   display: none;
+   width: 50%;
+   background-color: #808080;
+  }
+  
+  #backgroundSection .navbar-mob .navbarSubMob ul{
+   height: 40px;
+   padding: 10px 30% 0px 30%;
+  }
+  
+  #backgroundSection .navbar-mob .navbarSubMob ul:hover{
+   background-color: rgb(93, 93, 95);
+  }
+  
+  #backgroundSection .navbar-mob .navbarSubMob #home{
+   background-color: rgb(93, 93, 95);
+  }
+  
+  #backgroundSection .navbar-mob .navbarSubMob #home a{
+    color: rgb(29, 204, 160);
+   }
+  
+  #backgroundSection .navbar-mob .navbarSubMob ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20%; 
+  }
+  
+  #backgroundSection .navbar-mob .navbarSubMob ul:hover a{
+   color: rgb(29, 204, 160);
+   text-decoration: none;
+  }
+  
+  #backgroundSection .backgroundPicture{
+    display: none;
+  }
+ 
+
+  /* ************************************************The nav section **********************8*/
+  
+  
+#backgroundSection .navbar-desk{
+  display: none;
+}
+
+
+/* ************************************************ The designs section **********************8*/
+  .officeSection{
+      width: 100%;
+      height: 690px;
+      clear: both;
+      padding: 30px 0px;
+      background-color: black;
+  }
+
+  .officeSection .desktop{
+    display: none;
+ }
+
+  .officeSection .mobile{
+      display: block;
+     width: 70%;
+     margin: 10px 15%;
+  }
+
+  .officeSection .mobile .column1{
+      width: 100%;
+      height: 190px;
+      background-color: rgb(46, 46, 46);
+  }
+
+  .officeSection .mobile .column1 .website a{
+    font-size: 11px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+  .officeSection .mobile .column1 .website a .webBoard{
+      height: 190px;
+  }
+
+  .officeSection .mobile .column1 .website a .webBoard #websiteImage{
+      height: 150px;
+      width: 90%;
+      margin: 10px 5% 2px 5%;
+      transition: 0.5s;
+  }
+  
+  .officeSection .mobile .column1 .website a .webBoard:hover #websiteImage{
+    transform: scale(1.08);
+    transition: 0.5s;
+  }
+ 
+  .officeSection .mobile .column2{
+    width: 100%;
+    height: 190px;
+    background-color: rgb(46, 46, 46);
+    margin-top: 30px;
+}
+
+.officeSection .mobile .column2 .blog a{
+  font-size: 11px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.officeSection .mobile .column2 .blog a .blogBoard{
+    height: 190px;
+}
+
+.officeSection .mobile .column2 .blog a .blogBoard #blogImage{
+    height: 150px;
+    width: 90%;
+    margin: 10px 5% 0px 5%;
+    transition: 0.5s;
+}
+
+.officeSection .mobile .column2 .blog a .blogBoard:hover #blogImage{
+  transform: scale(1.08);
+  transition: 0.5s;
+}
+
+.officeSection .mobile .column3{
+    width: 100%;
+    height: 190px;
+    background-color: rgb(46, 46, 46);
+    margin-top: 30px;
+}
+
+.officeSection .mobile .column3 .presentation a{
+  font-size: 11px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.officeSection .mobile .column3 .presentation a .presentationBoard{
+    height: 190px;
+}
+
+.officeSection .mobile .column3 .presentation a .presentationBoard #presentationImage{
+    height: 150px;
+    width: 90%;
+    margin: 10px 5% 0px 5%;
+    transition: 0.5s;
+}
+
+.officeSection .mobile .column3 .presentation a .presentationBoard:hover #presentationImage{
+  transform: scale(1.08);
+  transition: 0.5s;
+}
+
+/* ******************************8The some of my presentation point */
+
+.someDesignsSection{
+    width: 100%;
+    height: 1400px;
+    background-color: black;
+}
+
+.someDesignsSection .desktop{
+    display: none;
+}
+
+.someDesignsSection .mobile{
+    display: block;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard{
+    height: 600px;
+    padding-top: 30px;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard h3{
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard .myWebDesigns{
+    height: 300px;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard .myWebDesigns .Row1{
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard .myWebDesigns .Row1 a .imageBoard{
+    height: 150px;
+    width: 40%;
+    margin: 0px 30%;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard .myWebDesigns .Row1 a .imageBoard #web1{
+    height: 150px;
+    width: 100%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard .myWebDesigns .Row1 a .imageBoard #web1:hover{
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard .myWebDesigns .Row2{
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard .myWebDesigns .Row2 a .imageBoard{
+    height: 150px;
+    width: 40%;
+    margin: 0px 30%;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard .myWebDesigns .Row2 a .imageBoard #web2{
+    height: 150px;
+    width: 100%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard .myWebDesigns .Row2 a .imageBoard #web2:hover{
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard .myWebDesigns .Row3{
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard .myWebDesigns .Row3 a .imageBoard{
+    height: 150px;
+    width: 40%;
+    margin: 0px 30%;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard .myWebDesigns .Row3 a .imageBoard #web3{
+    height: 150px;
+    width: 100%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.someDesignsSection .mobile .myWebDesignsBoard .myWebDesigns .Row3 a .imageBoard #web3:hover{
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+.someDesignsSection .mobile .myPPTDesignsBoard{
+    height: 600px;
+    padding-top: 30px;
+}
+
+.someDesignsSection .mobile .myPPTDesignsBoard h3{
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.someDesignsSection .mobile .myPPTDesignsBoard .frame{
+    width: 80%;
+    margin: 0px 10%;
+    height: 630px;
+    border: 40px solid #1c1c1c;
+    padding-top: 20px;
+}
+
+.someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns{
+    height: 600px;
+    width: 70%;
+    margin: 0px 15%;
+}
+
+/* ************************************************The Some designs section column1 **********************8*/
+
+.someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1{
+    width: 100%;
+    background-color: white;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace{
+     border: 1px rgb(202, 196, 196) solid;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig #Image #List-of-labels{
+     width: 100%;
+     height: 130px;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .textSpace1{
+     height: 70px;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .textSpace1 .personSpace{
+     width: 100%;
+     height: 15px;
+     margin: 2px 0px 2px 3px;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .textSpace1 .personSpace #person{
+     width: 11%;
+     float: left;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .textSpace1 .personSpace #person #DIV{
+     width: 100%;
+     height: 15px;
+     border-radius: 50%;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .textSpace1 .personSpace #personName{
+     width: 87%;
+     float: left;
+     font-size: 9px;
+     padding-left: 5px;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .textSpace1 .personSpace #personName #DIV{
+     padding-left: 3px;
+     color: black;
+     text-decoration: none;
+ }
+
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .textSpace1 .personSpace #personName #DIV:hover{
+     text-decoration: underline;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .textSpace1 .personSpace #personName p{
+     color: rgb(255, 17, 0);
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .textSpace1 #text{
+     width: 100%;
+     height: 70px;
+     padding: 7px 10px 3px 10px;	
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .textSpace1 #text a{
+     font-size: 12px;
+     padding: 10px 10px 10px 10px;
+     color: black;
+     text-decoration: none;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .textSpace1 #text a:hover{
+     color: #358f1a;
+     text-decoration: underline;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .statusBar{
+     width: 100%;
+     height: 30px;
+     border-top: 0.5px rgb(202, 196, 196) solid;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .statusBar .preview{
+     width: 30%;
+     float: left;
+     padding: 3px 0px 0px 5px;
+     color: black;
+     cursor: pointer;
+ }
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .statusBar .preview a{
+     text-decoration: none;
+     cursor: pointer;
+     font-size: 12px;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .statusBar #loveLogo{
+     width: 10%;
+     float: left;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .statusBar #loveLogo #love{
+     width: 100%;
+     height: 20px;
+     padding: 4px 0px 0px 5px;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column1 .gigSpace .gig .statusBar #price{
+     width: 55%;
+     float: left;
+     padding: 10px 3px 10px 20px;
+     font-size: 12px;
+ }
+
+/* ************************************************The Some designs section column2 **********************8*/
+
+.someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2{
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace{
+     border: 1px rgb(202, 196, 196) solid;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig #Process-analysis{
+     width: 100%;
+     height: 130px;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .textSpace1{
+     height: 70px;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .textSpace1 .personSpace{
+     width: 100%;
+     height: 15px;
+     margin: 2px 0px 2px 3px;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .textSpace1 .personSpace #person{
+     width: 11%;
+     float: left;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .textSpace1 .personSpace #person #DIV{
+     width: 100%;
+     height: 15px;
+     border-radius: 50%;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .textSpace1 .personSpace #personName{
+     width: 87%;
+     float: left;
+     font-size: 9px;
+     padding-left: 5px;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .textSpace1 .personSpace #personName #DIV{
+     padding-left: 3px;
+     color: black;
+     text-decoration: none;
+ }
+
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .textSpace1 .personSpace #personName #DIV:hover{
+     text-decoration: underline;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .textSpace1 .personSpace #personName p{
+     color: rgb(255, 17, 0);
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .textSpace1 #text{
+     width: 100%;
+     height: 70px;
+     padding: 7px 10px 3px 10px;	
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .textSpace1 #text a{
+     font-size: 12px;
+     padding: 10px 10px 10px 10px;
+     color: black;
+     text-decoration: none;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .textSpace1 #text a:hover{
+     color: #358f1a;
+     text-decoration: underline;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .statusBar{
+     width: 100%;
+     height: 30px;
+     border-top: 0.5px rgb(202, 196, 196) solid;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .statusBar .preview{
+     width: 30%;
+     float: left;
+     padding: 3px 0px 0px 5px;
+     color: black;
+     cursor: pointer;
+ }
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .statusBar .preview a{
+     text-decoration: none;
+     cursor: pointer;
+     font-size: 12px;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .statusBar #loveLogo{
+     width: 10%;
+     float: left;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .statusBar #loveLogo #love{
+     width: 100%;
+     height: 20px;
+     padding: 4px 0px 0px 5px;
+ }
+ 
+ .someDesignsSection .mobile .myPPTDesignsBoard .frame .myPPTDesigns .column2 .gigSpace .gig .statusBar #price{
+     width: 55%;
+     float: left;
+     padding: 10px 3px 10px 20px;
+     font-size: 12px;
+ }
+
+/* *************************************The footer********************* */
+
+footer .desktop{
+    display: none;
+}
+
+footer .mobile{
+    display: block;
+}
+
+footer .mobile .Row1{
+    width: 100%;
+    height: 160px;
+    background-color: black;
+}
+
+footer .mobile .Row1 .subColumn1{
+    width: 50%;
+    float: left;
+}
+
+footer .mobile .Row1 .subColumn1 h2{
+    width: 60%;
+    height: 20px;
+    margin: 0px 20% 10px 20%;
+    font-size: 12px;
+}
+
+footer .mobile .Row1 .subColumn1 h2 #about{
+    width: 50%;
+    float: left;
+    height: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer .mobile .Row1 .subColumn1 h2 #DIV{
+    width: 50%;
+    float: left;
+    height: 20px;
+    color: aquamarine;
+    margin-left: -10px;
+}
+
+footer .mobile .Row1 .subColumn1 .theAbout{
+    width: 90%;
+    margin: 0px 5%;
+}
+
+footer .mobile .Row1 .subColumn1 .theAbout p{
+    color: #808080;
+   font-size: 14px;
+}
+
+footer .mobile .Row1 .subColumn1 .theAbout ul{
+   width: 100%;
+   height: 30px;
+   margin-top: 10px;
+   padding-top: 5px;
+   background-color: white;
+   border-radius: 3px;
+   text-align: center;
+}
+
+footer .mobile .Row1 .subColumn1 .theAbout ul a{
+   color: black;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 800;
+}
+
+footer .mobile .Row1 .subColumn2{
+    width: 50%;
+    float: left;
+}
+
+footer .mobile .Row1 .subColumn2 h2{
+    width: 60%;
+    height: 20px;
+    margin: 0px 20% 10px 20%;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer .mobile .Row1 .subColumn2 .contact{
+    width: 95%;
+    margin: 0px 0px 10px 5%;
+    color: #808080;
+    font-size: 14px;
+}
+
+footer .mobile .Row1 .subColumn2 .contact ul{
+    margin-bottom: 7px;
+}
+
+footer .mobile .Row1 .subColumn2 .socialMedia{
+    width: 80%;
+    margin: 0px 10%;
+}
+
+footer .mobile .Row1 .subColumn2 .socialMedia ul{
+    width: 16%;
+    margin: 0px 2%;
+    float: left;
+    height: 20px;
+}
+
+footer .mobile .Row1 .subColumn2 .socialMedia ul #socialImage{
+    width: 20px;
+    height: 20px;
+}
+
+footer .mobile .Row2{
+    width: 100%;
+    height: 200px;
+    padding-top: 40px;
+    background-color: black;
+}
+
+footer .mobile .Row2 .subColumn1{
+    width: 50%;
+    float: left;
+}
+
+footer .mobile .Row2 .subColumn1 h2{
+    width: 100%;
+    height: 20px;
+    margin: 0px 0% 10px 0%;
+    color: white;
+    font-size: 12px;
+    padding-left: 40px;
+}
+
+footer .mobile .Row2 .subColumn1 .category{
+    width: 100%;
+}
+
+footer .mobile .Row2 .subColumn1 .category ul{
+    padding: 0px 0px 5px 40px;
+}
+
+footer .mobile .Row2 .subColumn1 .category ul a{
+    color: #808080;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer .mobile .Row2 .subColumn1 .category ul a:hover{
+    text-decoration: underline;
+}
+
+footer .mobile .Row2 .subColumn2{
+    width: 50%;
+    float: left;
+}
+
+footer .mobile .Row2 .subColumn2 h2{
+    width: 60%;
+    height: 20px;
+    margin: 0px 20% 10px 20%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer .mobile .Row2 .subColumn2 .tool{
+    width: 95%;
+    margin: 0px 0px 10px 0%;
+    color: #808080;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer .mobile .Row2 .subColumn2 .tool ul{
+    margin-bottom: 3px;
+}
+
+footer .mobile .Row3{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+footer .mobile .Row3 .column1{
+    width: 50%;
+    float: left;
+    padding-top: 5px;
+}
+
+footer .mobile .Row3 .column1 #copyright{
+    width: 32%;
+    float: left;
+    color: #808080;
+    padding-left: 8%;
+}
+
+footer .mobile .Row3 .column1 #div{
+    width: 12%;
+    float: left;
+}
+
+footer .mobile .Row3 .column1 #div a{
+   color: aquamarine;
+   text-decoration: none;
+   font-size: 14px;
+}
+
+footer .mobile .Row3 .column1 #div a:hover{
+   text-decoration: underline;
+}
+
+footer .mobile .Row3 .column1 #reserve{
+    width: 56%;
+    float: left;
+    color: #808080;
+    padding-left: 4px;
+}
+
+footer .mobile .Row3 .column2{
+    width: 50%;
+    float: left;
+}
+
+footer .mobile .Row3 .column2 #designed{
+    width: 44%;
+    float: left;
+    color: #808080;
+    padding: 5px 0px 0px 8%;
+}
+
+footer .mobile .Row3 .column2 #author{
+    width: 12%;
+    float: left;
+    padding-top: 5px;
+}
+
+footer .mobile .Row3 .column2 #author a{
+   color: aquamarine;
+   text-decoration: none;
+   font-size: 14px;
+}
+
+footer .mobile .Row3 .column2 #author a:hover{
+   text-decoration: underline;
+}
+
+footer .mobile .Row3 .column2 #filterBoard{
+    width: 24%;
+    float: left;
+    color: #808080;
+    margin: 0px 10%;
+    background-color: rgb(29, 29, 29);
+}
+
+footer .mobile .Row3 .column2 #filterBoard #filter{
+    width: 20%;
+      margin: 0% 40%;
+      height: 20px;
+      transform: rotate(-90deg);
+}
+
+}
